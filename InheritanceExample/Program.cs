@@ -10,16 +10,16 @@ namespace InheritanceExample
     {
         static void Main(string[] args)
         {
-            //Car car = new Car();
+            Car car = new Car();
 
-            //Console.WriteLine(car.speed);
-            //Console.WriteLine(car.wheel);
-            //car.go();
+            Console.WriteLine(car.speed);
+            Console.WriteLine(car.wheel);
+            car.go();
 
-            //Bike bike = new Bike();
-            //Console.WriteLine(bike.wheel);
-            //Console.WriteLine(bike.speed);
-            //bike.go();
+            Bike bike = new Bike();
+            Console.WriteLine(bike.wheel);
+            Console.WriteLine(bike.speed);
+            bike.go();
 
             try
             {
