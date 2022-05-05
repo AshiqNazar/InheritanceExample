@@ -31,7 +31,7 @@ namespace InheritanceExample
             }
             catch (Exception ex)
             {
-                // logic
+                //logic
              
                 Console.WriteLine(ex.Message);
             }
