@@ -9,5 +9,6 @@ namespace InheritanceExample
    public class Bike:Vechile
     {
         public int wheel = 2;
+        public int horn;
     }
 }
